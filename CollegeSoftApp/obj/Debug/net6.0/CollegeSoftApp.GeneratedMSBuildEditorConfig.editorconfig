@@ -8,37 +8,69 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CollegeSoftApp
 build_property.RootNamespace = CollegeSoftApp
-build_property.ProjectDir = C:\Users\DELL\source\repos\CollegeSoftApp\CollegeSoftApp\
+build_property.ProjectDir = G:\BCA 8TH sem\CollegeSoftApp\CollegeSoftApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\DELL\source\repos\CollegeSoftApp\CollegeSoftApp
+build_property.MSBuildProjectDirectory = G:\BCA 8TH sem\CollegeSoftApp\CollegeSoftApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/DELL/source/repos/CollegeSoftApp/CollegeSoftApp/Views/Home/Index.cshtml]
+[G:/BCA 8TH sem/CollegeSoftApp/CollegeSoftApp/Views/Classes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/BCA 8TH sem/CollegeSoftApp/CollegeSoftApp/Views/Classes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/BCA 8TH sem/CollegeSoftApp/CollegeSoftApp/Views/Classes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/BCA 8TH sem/CollegeSoftApp/CollegeSoftApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/source/repos/CollegeSoftApp/CollegeSoftApp/Views/Home/Privacy.cshtml]
+[G:/BCA 8TH sem/CollegeSoftApp/CollegeSoftApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/source/repos/CollegeSoftApp/CollegeSoftApp/Views/Shared/Error.cshtml]
+[G:/BCA 8TH sem/CollegeSoftApp/CollegeSoftApp/Views/ProgramInfoes/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZ3JhbUluZm9lc1xjcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/BCA 8TH sem/CollegeSoftApp/CollegeSoftApp/Views/ProgramInfoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZ3JhbUluZm9lc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/BCA 8TH sem/CollegeSoftApp/CollegeSoftApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/source/repos/CollegeSoftApp/CollegeSoftApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[G:/BCA 8TH sem/CollegeSoftApp/CollegeSoftApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/source/repos/CollegeSoftApp/CollegeSoftApp/Views/_ViewImports.cshtml]
+[G:/BCA 8TH sem/CollegeSoftApp/CollegeSoftApp/Views/Teacher/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxjcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/BCA 8TH sem/CollegeSoftApp/CollegeSoftApp/Views/Teacher/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/BCA 8TH sem/CollegeSoftApp/CollegeSoftApp/Views/Teacher/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/BCA 8TH sem/CollegeSoftApp/CollegeSoftApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/source/repos/CollegeSoftApp/CollegeSoftApp/Views/_ViewStart.cshtml]
+[G:/BCA 8TH sem/CollegeSoftApp/CollegeSoftApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/source/repos/CollegeSoftApp/CollegeSoftApp/Views/Shared/_Layout.cshtml]
+[G:/BCA 8TH sem/CollegeSoftApp/CollegeSoftApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-4anl50487b

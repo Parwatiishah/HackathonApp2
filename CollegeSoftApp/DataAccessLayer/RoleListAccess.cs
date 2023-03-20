@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CollegeSoftApp.DataAccessLayer
 {
-    public static partial  class RoleListAccess
+    public static partial  class DataAccess
     {
         public static async Task<List<RoleList>?> GetRoleLists()
         {
@@ -27,7 +27,7 @@ namespace CollegeSoftApp.DataAccessLayer
 
         }
         //id
-        public static async Task<List<RoleList?>> GetRoleLists(int id)
+        public static async Task<List<RoleList?>> GetRoleListDetails(int id)
         {
             List<RoleList>? roles = new List<RoleList>();
             HttpClient client = new HttpClient();

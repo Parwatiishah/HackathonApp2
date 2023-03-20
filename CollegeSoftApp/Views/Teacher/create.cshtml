@@ -1,0 +1,78 @@
+﻿@model CollegeSoftApp.Models.TeacherEdit
+
+<h4>TeacherEdit</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>   
+             <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Create  </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label asp-for="Tpost" class="control-label"></label>
+                        <select name="Tpost" id=tpost>
+                            <option value="Co-ordinator">CO-ordinator</option>
+                            <option value="Principal">Principal</option>
+                            <option value="Director">Managing Director</option>
+
+                        </select>
+
+                        <span asp-validation-for="Tpost" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="UserEmail" class="control-label"></label>
+                        <input asp-for="UserEmail" class="form-control" />
+                        <span asp-validation-for="UserEmail" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Upassword" class="control-label"></label>
+                        <input asp-for="Upassword" class="form-control" />
+                        <span asp-validation-for="Upassword" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="FullName" class="control-label"></label>
+                        <input asp-for="FullName" class="form-control" />
+                        <span asp-validation-for="FullName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Phone" class="control-label"></label>
+                        <input asp-for="Phone" class="form-control" />
+                        <span asp-validation-for="Phone" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="UserAddress" class="control-label"></label>
+                        <input asp-for="UserAddress" class="form-control" />
+                        <span asp-validation-for="UserAddress" class="text-danger"></span>
+                    </div>
+                    @* <div class="form-group">
+                    <label asp-for="LoginStatus" class="control-label"></label>
+                    <input asp-for="LoginStatus" class="form-control" />
+                    <span asp-validation-for="LoginStatus" class="text-danger"></span>
+                    </div>*@
+                    <div class="form-group">
+                        <label asp-for="RoleId" class="control-label"></label>
+                        <select asp-for="RoleId" asp-items="@ViewBag.RoleList" class="form-control"></select>
+                        <span asp-validation-for="RoleId" class="text-danger"></span>
+                    </div>
+                </div>
+            <div classclass="modal-footer">
+                 <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+            </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

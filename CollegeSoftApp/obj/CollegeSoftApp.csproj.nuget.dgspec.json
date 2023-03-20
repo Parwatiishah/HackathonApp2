@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\source\\repos\\CollegeSoftApp\\CollegeSoftApp\\CollegeSoftApp.csproj": {}
+    "G:\\BCA 8TH sem\\CollegeSoftApp\\CollegeSoftApp\\CollegeSoftApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\source\\repos\\CollegeSoftApp\\CollegeSoftApp\\CollegeSoftApp.csproj": {
+    "G:\\BCA 8TH sem\\CollegeSoftApp\\CollegeSoftApp\\CollegeSoftApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\CollegeSoftApp\\CollegeSoftApp\\CollegeSoftApp.csproj",
+        "projectUniqueName": "G:\\BCA 8TH sem\\CollegeSoftApp\\CollegeSoftApp\\CollegeSoftApp.csproj",
         "projectName": "CollegeSoftApp",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\CollegeSoftApp\\CollegeSoftApp\\CollegeSoftApp.csproj",
+        "projectPath": "G:\\BCA 8TH sem\\CollegeSoftApp\\CollegeSoftApp\\CollegeSoftApp.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\CollegeSoftApp\\CollegeSoftApp\\obj\\",
+        "outputPath": "G:\\BCA 8TH sem\\CollegeSoftApp\\CollegeSoftApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"

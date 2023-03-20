@@ -23,6 +23,7 @@ namespace CollegeSoftApp.DataAccessLayer
             {
                 return receptions;
             }
+        }
             //id
             public static async Task<List<ReceptionView?>> GetReception(int id)
             {
@@ -35,6 +36,7 @@ namespace CollegeSoftApp.DataAccessLayer
                 }
                 return receptionViews;
             }
+        
             public static async Task<ReceptionView?> CreateReception(Reception reception)
             {
                 ReceptionView? receptionView = new ReceptionView();
@@ -48,4 +50,4 @@ namespace CollegeSoftApp.DataAccessLayer
             }
         }
     }
-}
+

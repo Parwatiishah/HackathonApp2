@@ -1,6 +1,7 @@
 ﻿using CollegeSoftApp.DataAccessLayer;
 using CollegeSoftApp.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace CollegeSoftApp.Controllers
 {
@@ -14,8 +15,14 @@ namespace CollegeSoftApp.Controllers
         [HttpGet]
         public async Task<IActionResult> create()
         {
+           /* List<User>? u = await DataAccess.GetUserLists();
+
+            ViewBag.userList = new SelectList(u, nameof(User.UserId), nameof(User.UserName));*/
             return PartialView();
         }
+
+        
+
         [HttpPost]
         public async Task<IActionResult> create(ProgramInfoEdit program)
         {

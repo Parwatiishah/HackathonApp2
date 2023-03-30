@@ -7,27 +7,21 @@ public partial class PrograInfoView
 {
     public int Pid { get; set; }
 
-    public string Pname { get; set; } 
+    public string Pname { get; set; } = null!;
 
-    public string Pdescription { get; set; } 
+    public string Pdescription { get; set; } = null!;
 
-    public string Venue { get; set; } 
+    public string Venue { get; set; } = null!;
 
     public DateTime StartDate { get; set; }
 
-    public string StartTime { get; set; } 
+    public string StartTime { get; set; } = null!;
 
     public DateTime EndDate { get; set; }
 
-    public string EndTime { get; set; } 
+    public string EndTime { get; set; } = null!;
 
     public int UserId { get; set; }
 
     public string? EntryUser { get; set; }
-
-    public DateTime CancelledDate { get; set; }
-
-    public int CancelledId { get; set; }
-
-    public string? CancelledBy { get; set; }
 }

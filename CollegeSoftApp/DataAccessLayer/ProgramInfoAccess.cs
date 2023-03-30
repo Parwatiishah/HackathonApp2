@@ -25,14 +25,14 @@ namespace CollegeSoftApp.DataAccessLayer
             }
         }
         //id
-        public static async Task<List<PrograInfoView?>> GetProgramInfoDetails(int id)
+        public static async Task<PrograInfoView?> GetProgramInfoDetails(int id)
         {
-            List<PrograInfoView>? prograInfoViews = new List<PrograInfoView>();
+            PrograInfoView? prograInfoViews = new PrograInfoView();
             HttpClient client = new HttpClient();
             using (var response = await client.GetAsync("https://localhost:7027/api/ProgramInfoes/" + id.ToString()))
             {
                 string apiresponse = await response.Content.ReadAsStringAsync();
-                prograInfoViews = JsonConvert.DeserializeObject<List<PrograInfoView>>(apiresponse);
+                prograInfoViews = JsonConvert.DeserializeObject<PrograInfoView>(apiresponse);
             }
             return prograInfoViews;
         }
@@ -56,8 +56,8 @@ namespace CollegeSoftApp.DataAccessLayer
                 {
                     RequestUri = new Uri("https://localhost:7027/api/ProgramInfoes/" + id),
                     Method = new HttpMethod("Patch"),
-                    Content = new StringContent("[{ \"op\": \"replace\", \"path\": \"CancelledId\", \"value\": \"" + 
-                    ProgramInfoEdit.CancelledId+ "\"},{ \"op\": \"replace\", \"path\": \"CancelledDate\", \"value\": \"" +
+                    Content = new StringContent("[{ \"op\": \"replace\", \"path\": \"CancelledId\", \"value\": \"" +
+                    ProgramInfoEdit.CancelledId + "\"},{ \"op\": \"replace\", \"path\": \"CancelledDate\", \"value\": \"" +
                     ProgramInfoEdit.CancelledDate + "\"},{ \"op\": \"replace\", \"path\": \"ReasonForCancel\", \"value\":" +
                     " \"" + programInfoEdit.ReasonForCancel + "\"}]", Encoding.UTF8, "application/json")
                 };

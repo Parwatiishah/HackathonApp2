@@ -39,6 +39,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZ3JhbUluZm9lc1xjcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[G:/BCA 8TH sem/CollegeSoftApp/CollegeSoftApp/Views/ProgramInfoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZ3JhbUluZm9lc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [G:/BCA 8TH sem/CollegeSoftApp/CollegeSoftApp/Views/ProgramInfoes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZ3JhbUluZm9lc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -61,6 +65,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [G:/BCA 8TH sem/CollegeSoftApp/CollegeSoftApp/Views/Teacher/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/BCA 8TH sem/CollegeSoftApp/CollegeSoftApp/Views/Vacancies/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjYW5jaWVzXGNyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/BCA 8TH sem/CollegeSoftApp/CollegeSoftApp/Views/Vacancies/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjYW5jaWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/BCA 8TH sem/CollegeSoftApp/CollegeSoftApp/Views/Vacancies/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjYW5jaWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [G:/BCA 8TH sem/CollegeSoftApp/CollegeSoftApp/Views/_ViewImports.cshtml]

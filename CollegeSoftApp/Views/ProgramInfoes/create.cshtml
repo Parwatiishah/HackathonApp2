@@ -6,11 +6,17 @@
     <div class="col-md-4">
         <form asp-action="create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            @*<div class="form-group">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Create  </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+            <div class="form-group" hidden>
                 <label asp-for="Pid" class="control-label"></label>
-                <input asp-for="Pid" class="form-control" />
+                <input asp-for="Pid"  class="form-control" />
                 <span asp-validation-for="Pid" class="text-danger"></span>
-            </div>*@
+            </div>
             <div class="form-group">
                 <label asp-for="Pname" class="control-label"></label>
                 <input asp-for="Pname" class="form-control" />
@@ -46,33 +52,22 @@
                 <input asp-for="EndTime" class="form-control" />
                 <span asp-validation-for="EndTime" class="text-danger"></span>
             </div>
-            @*<div class="form-group">
-                <label asp-for="UserId" hidden class="control-label"></label>
-                <input asp-for="UserId" hidden class="form-control" />
+            <div class="form-group">
+                <label asp-for="UserId" class="control-label"></label>
+                <input asp-for="UserId" class="form-control" />
                 <span asp-validation-for="UserId" class="text-danger"></span>
-            </div>*@
+            </div>
             <div class="form-group">
                 <label asp-for="EntryDate" class="control-label"></label>
                 <input asp-for="EntryDate" class="form-control" />
                 <span asp-validation-for="EntryDate" class="text-danger"></span>
             </div>
-           @* <div class="form-group">
-                <label asp-for="CancelledId" class="control-label"></label>
-                <input asp-for="CancelledId" class="form-control" />
-                <span asp-validation-for="CancelledId" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="CancelledDate" class="control-label"></label>
-                <input asp-for="CancelledDate" class="form-control" />
-                <span asp-validation-for="CancelledDate" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="ReasonForCancell" class="control-label"></label>
-                <input asp-for="ReasonForCancell" class="form-control" />
-                <span asp-validation-for="ReasonForCancell" class="text-danger"></span>
-            </div>*@
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+            <div class="modal-footer">
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
             </div>
         </form>
     </div>

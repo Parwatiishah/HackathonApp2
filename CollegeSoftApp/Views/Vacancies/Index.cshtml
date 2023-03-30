@@ -1,0 +1,139 @@
+﻿@model IEnumerable<CollegeSoftApp.Models.VacancyView>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+@*<h5>
+    @Html.DisplayNameFor(model => model.JobTitle)
+</h5>
+@foreach (var item in Model)
+{
+    <p>
+        @Html.DisplayFor(modelItem => item.JobTitle)
+    </p>
+}
+<h5>
+     @Html.DisplayNameFor(model => model.JobDes)
+ </h5>
+ 
+<h5>
+    @Html.DisplayNameFor(model => model.JobRequirements)
+</h5>
+<h5>
+    @Html.DisplayNameFor(model => model.JobLocation)
+</h5>
+<h5>
+    @Html.DisplayNameFor(model => model.CompanyName)
+</h5>
+<h5>
+    @Html.DisplayNameFor(model => model.ContactEmail)
+</h5>
+<h5>
+    @Html.DisplayNameFor(model => model.PostDate)
+</h5>
+<h5>
+    @Html.DisplayNameFor(model => model.PostedBy)
+</h5>
+<h5>
+    @Html.DisplayNameFor(model => model.CompanyEmail)
+
+</h5>
+@foreach (var item in Model) {
+    
+    <p>
+        @Html.DisplayFor(modelItem => item.JobDes)
+    </p>
+    <p>
+                @Html.DisplayFor(modelItem => item.JobRequirements)
+    </p>
+    <p>
+        @Html.DisplayFor(modelItem => item.JobLocation)
+    </p>
+    <p>
+        @Html.DisplayFor(modelItem => item.CompanyName)
+    </p>
+    <p>
+        @Html.DisplayFor(modelItem => item.ContactEmail)
+    </p>
+    <p>
+        @Html.DisplayFor(modelItem => item.PostDate)
+    </p>
+    <p>
+        @Html.DisplayFor(modelItem => item.PostedBy)
+    </p>
+    <p>
+        @Html.DisplayFor(modelItem => item.CompanyEmail)
+    </p>
+}*@
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.JobTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.JobDes)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.JobRequirements)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.JobLocation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CompanyName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ContactEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PostDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PostedBy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CompanyEmail)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.JobTitle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.JobDes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.JobRequirements)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.JobLocation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CompanyName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContactEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PostDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PostedBy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CompanyEmail)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
